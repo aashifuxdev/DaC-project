@@ -1,1 +1,1 @@
-# mintlify_lg_repo
+# Docs as code
