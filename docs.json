@@ -1,0 +1,822 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "DaC-Test",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "pages": [
+      {
+        "group": "Introduction",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/index",
+          "getting-started/user-team-audit",
+          "getting-started/workspace-automation-template",
+          "getting-started/alert-action-sort",
+          "getting-started/build-validate-backup",
+          {
+            "group": "Integration Search Plan",
+            "pages": [
+              "getting-started/integration-search-plan/index",
+              "getting-started/integration-search-plan/domain-review-label",
+              "getting-started/integration-search-plan/editor-template-request"
+            ]
+          },
+          "getting-started/monitor-authentication-notification",
+          "getting-started/pipeline-workspace-request",
+          "getting-started/throughput-backup-branding",
+          "getting-started/throughput-workflow-domain",
+          {
+            "group": "Deployment Metadata Performance",
+            "pages": [
+              "getting-started/deployment-metadata-performance/index",
+              "getting-started/deployment-metadata-performance/database-workflow-index",
+              "getting-started/deployment-metadata-performance/query-user-event"
+            ]
+          },
+          "getting-started/limit-report-import",
+          "getting-started/branding-api-schema",
+          "getting-started/sort-quota-navigation",
+          "getting-started/quota-action-field",
+          {
+            "group": "Invoice Validate Pipeline",
+            "pages": [
+              "getting-started/invoice-validate-pipeline/index",
+              "getting-started/invoice-validate-pipeline/role-module-pagination",
+              "getting-started/invoice-validate-pipeline/filter-test-endpoint"
+            ]
+          },
+          "getting-started/alert-module-authorization",
+          "getting-started/publish-component-configuration",
+          "getting-started/migration-token-filter",
+          "getting-started/template-build-sso",
+          {
+            "group": "Approval Event Article",
+            "pages": [
+              "getting-started/approval-event-article/index",
+              "getting-started/approval-event-article/theme-tag-subscription",
+              "getting-started/approval-event-article/throughput-import-invoice"
+            ]
+          },
+          "getting-started/import-markdown-notification",
+          "getting-started/audit-workspace-platform",
+          "getting-started/integration-team-restore",
+          "getting-started/integration-tag-backup",
+          {
+            "group": "Webhook Workflow Approval",
+            "pages": [
+              "getting-started/webhook-workflow-approval/index",
+              "getting-started/webhook-workflow-approval/response-limit-build",
+              "getting-started/webhook-workflow-approval/pipeline-restore-restore"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "User Guide",
+        "pages": [
+          "user-guide/index",
+          "user-guide/trigger-configuration-setting",
+          "user-guide/workspace-service-platform",
+          "user-guide/sso-domain-security",
+          "user-guide/draft-authentication-configuration",
+          {
+            "group": "Review Team Test",
+            "pages": [
+              "user-guide/review-team-test/index",
+              "user-guide/review-team-test/audit-domain-action",
+              "user-guide/review-team-test/audit-database-field"
+            ]
+          },
+          "user-guide/build-pipeline-webhook",
+          "user-guide/team-invoice-subscription",
+          "user-guide/monitor-test-navigation",
+          "user-guide/content-label-integration",
+          {
+            "group": "Index Request Validate",
+            "pages": [
+              "user-guide/index-request-validate/index",
+              "user-guide/index-request-validate/restore-authentication-review",
+              "user-guide/index-request-validate/test-dashboard-label"
+            ]
+          },
+          "user-guide/pagination-label-feature",
+          "user-guide/export-email-quota",
+          "user-guide/team-deployment-audit",
+          "user-guide/build-markdown-import",
+          {
+            "group": "Sso Field Module",
+            "pages": [
+              "user-guide/sso-field-module/index",
+              "user-guide/sso-field-module/category-backup-editor",
+              "user-guide/sso-field-module/restore-alert-saml"
+            ]
+          },
+          "user-guide/sidebar-platform-markdown",
+          "user-guide/index-feature-template",
+          "user-guide/database-plan-index",
+          "user-guide/test-notification-permission",
+          {
+            "group": "Api Search Trigger",
+            "pages": [
+              "user-guide/api-search-trigger/index",
+              "user-guide/api-search-trigger/backup-project-pagination",
+              "user-guide/api-search-trigger/markdown-deployment-export"
+            ]
+          },
+          "user-guide/test-theme-webhook",
+          "user-guide/approval-performance-approval",
+          "user-guide/query-platform-configuration",
+          "user-guide/label-import-latency",
+          {
+            "group": "Security Configuration Alert",
+            "pages": [
+              "user-guide/security-configuration-alert/index",
+              "user-guide/security-configuration-alert/field-feature-endpoint",
+              "user-guide/security-configuration-alert/label-query-pipeline"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Administration",
+        "pages": [
+          "administration/index",
+          "administration/webhook-notification-deployment",
+          "administration/saml-quota-billing",
+          "administration/test-backup-project",
+          "administration/workflow-navigation-permission",
+          {
+            "group": "Pipeline Latency Workflow",
+            "pages": [
+              "administration/pipeline-latency-workflow/index",
+              "administration/pipeline-latency-workflow/draft-integration-invoice",
+              "administration/pipeline-latency-workflow/database-deployment-configuration"
+            ]
+          },
+          "administration/category-navigation-pipeline",
+          "administration/environment-search-user",
+          "administration/alert-template-markdown",
+          "administration/template-module-export",
+          {
+            "group": "Article Theme Category",
+            "pages": [
+              "administration/article-theme-category/index",
+              "administration/article-theme-category/pipeline-cache-request",
+              "administration/article-theme-category/export-plan-webhook"
+            ]
+          },
+          "administration/setting-authentication-workflow",
+          "administration/editor-performance-oauth",
+          "administration/review-limit-notification",
+          "administration/invoice-database-alert",
+          {
+            "group": "Theme Validate Trigger",
+            "pages": [
+              "administration/theme-validate-trigger/index",
+              "administration/theme-validate-trigger/publish-platform-approval",
+              "administration/theme-validate-trigger/report-user-user"
+            ]
+          },
+          "administration/notification-monitor-role",
+          "administration/pipeline-latency-restore",
+          "administration/editor-export-notification",
+          "administration/event-automation-build",
+          {
+            "group": "Plan Log Publish",
+            "pages": [
+              "administration/plan-log-publish/index",
+              "administration/plan-log-publish/platform-database-billing",
+              "administration/plan-log-publish/module-monitor-permission"
+            ]
+          },
+          "administration/pipeline-footer-notification",
+          "administration/report-draft-branding",
+          "administration/webhook-approval-webhook",
+          "administration/invoice-draft-import",
+          {
+            "group": "Backup Report Schema",
+            "pages": [
+              "administration/backup-report-schema/index",
+              "administration/backup-report-schema/action-build-request",
+              "administration/backup-report-schema/webhook-configuration-content"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Integrations",
+        "pages": [
+          "integrations/index",
+          "integrations/import-authorization-project",
+          "integrations/module-api-user",
+          "integrations/export-dashboard-saml",
+          "integrations/email-footer-security",
+          {
+            "group": "Audit Response Index",
+            "pages": [
+              "integrations/audit-response-index/index",
+              "integrations/audit-response-index/permission-invoice-email",
+              "integrations/audit-response-index/approval-alert-footer"
+            ]
+          },
+          "integrations/log-alert-content",
+          "integrations/log-category-sidebar",
+          "integrations/pagination-attribute-notification",
+          "integrations/template-draft-markdown",
+          {
+            "group": "Article Response Approval",
+            "pages": [
+              "integrations/article-response-approval/index",
+              "integrations/article-response-approval/plan-authentication-review",
+              "integrations/article-response-approval/action-alert-pipeline"
+            ]
+          },
+          "integrations/email-content-request",
+          "integrations/schema-cache-restore",
+          "integrations/report-quota-analytics",
+          "integrations/label-sso-restore",
+          {
+            "group": "Release Content Cache",
+            "pages": [
+              "integrations/release-content-cache/index",
+              "integrations/release-content-cache/environment-search-integration",
+              "integrations/release-content-cache/header-oauth-test"
+            ]
+          },
+          "integrations/build-workspace-label",
+          "integrations/markdown-pipeline-workspace",
+          "integrations/sort-export-latency",
+          "integrations/navigation-response-article",
+          {
+            "group": "Team Build Sso",
+            "pages": [
+              "integrations/team-build-sso/index",
+              "integrations/team-build-sso/template-api-import",
+              "integrations/team-build-sso/automation-monitor-role"
+            ]
+          },
+          "integrations/database-header-article",
+          "integrations/schema-latency-user",
+          "integrations/workflow-review-restore",
+          "integrations/action-throughput-action",
+          {
+            "group": "Environment Build Query",
+            "pages": [
+              "integrations/environment-build-query/index",
+              "integrations/environment-build-query/notification-event-event",
+              "integrations/environment-build-query/markdown-content-component"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "API Reference",
+        "pages": [
+          "api-reference/index",
+          "api-reference/plan-notification-notification",
+          "api-reference/index-dashboard-token",
+          "api-reference/configuration-saml-performance",
+          "api-reference/user-domain-latency",
+          {
+            "group": "Api Token Security",
+            "pages": [
+              "api-reference/api-token-security/index",
+              "api-reference/api-token-security/dashboard-pipeline-build",
+              "api-reference/api-token-security/category-notification-feature"
+            ]
+          },
+          "api-reference/test-permission-query",
+          "api-reference/platform-review-response",
+          "api-reference/domain-backup-limit",
+          "api-reference/content-saml-sidebar",
+          {
+            "group": "Schema Deployment Analytics",
+            "pages": [
+              "api-reference/schema-deployment-analytics/index",
+              "api-reference/schema-deployment-analytics/attribute-domain-setting",
+              "api-reference/schema-deployment-analytics/quota-token-api"
+            ]
+          },
+          "api-reference/user-log-filter",
+          "api-reference/approval-footer-navigation",
+          "api-reference/editor-database-sidebar",
+          "api-reference/latency-domain-review",
+          {
+            "group": "Alert Service Configuration",
+            "pages": [
+              "api-reference/alert-service-configuration/index",
+              "api-reference/alert-service-configuration/monitor-action-platform",
+              "api-reference/alert-service-configuration/sidebar-tag-template"
+            ]
+          },
+          "api-reference/migration-validate-email",
+          "api-reference/oauth-template-subscription",
+          "api-reference/email-request-integration",
+          "api-reference/index-tag-header",
+          {
+            "group": "Response Integration Filter",
+            "pages": [
+              "api-reference/response-integration-filter/index",
+              "api-reference/response-integration-filter/pagination-sso-query",
+              "api-reference/response-integration-filter/draft-metadata-api"
+            ]
+          },
+          "api-reference/navigation-project-service",
+          "api-reference/feature-query-automation",
+          "api-reference/tag-request-analytics",
+          "api-reference/branding-latency-token",
+          {
+            "group": "Platform Publish Field",
+            "pages": [
+              "api-reference/platform-publish-field/index",
+              "api-reference/platform-publish-field/integration-audit-database",
+              "api-reference/platform-publish-field/oauth-release-analytics"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Security and Compliance",
+        "pages": [
+          "security-and-compliance/index",
+          "security-and-compliance/limit-report-markdown",
+          "security-and-compliance/service-cache-feature",
+          "security-and-compliance/database-automation-version",
+          "security-and-compliance/action-oauth-attribute",
+          {
+            "group": "Field Review Oauth",
+            "pages": [
+              "security-and-compliance/field-review-oauth/index",
+              "security-and-compliance/field-review-oauth/content-navigation-deployment",
+              "security-and-compliance/field-review-oauth/authentication-subscription-metadata"
+            ]
+          },
+          "security-and-compliance/user-search-sort",
+          "security-and-compliance/platform-integration-billing",
+          "security-and-compliance/migration-editor-permission",
+          "security-and-compliance/notification-deployment-sort",
+          {
+            "group": "Review Email Pipeline",
+            "pages": [
+              "security-and-compliance/review-email-pipeline/index",
+              "security-and-compliance/review-email-pipeline/query-field-sort",
+              "security-and-compliance/review-email-pipeline/limit-sort-environment"
+            ]
+          },
+          "security-and-compliance/permission-configuration-api",
+          "security-and-compliance/navigation-migration-notification",
+          "security-and-compliance/restore-security-backup",
+          "security-and-compliance/analytics-invoice-category",
+          {
+            "group": "Api Feature Action",
+            "pages": [
+              "security-and-compliance/api-feature-action/index",
+              "security-and-compliance/api-feature-action/alert-subscription-request",
+              "security-and-compliance/api-feature-action/trigger-category-limit"
+            ]
+          },
+          "security-and-compliance/performance-throughput-project",
+          "security-and-compliance/webhook-authentication-metadata",
+          "security-and-compliance/response-sidebar-alert",
+          "security-and-compliance/authorization-sort-saml",
+          {
+            "group": "Endpoint Report Request",
+            "pages": [
+              "security-and-compliance/endpoint-report-request/index",
+              "security-and-compliance/endpoint-report-request/restore-event-dashboard",
+              "security-and-compliance/endpoint-report-request/header-editor-content"
+            ]
+          },
+          "security-and-compliance/metadata-automation-automation",
+          "security-and-compliance/authentication-alert-domain",
+          "security-and-compliance/role-release-subscription",
+          "security-and-compliance/plan-endpoint-draft",
+          {
+            "group": "Log Search Integration",
+            "pages": [
+              "security-and-compliance/log-search-integration/index",
+              "security-and-compliance/log-search-integration/audit-endpoint-permission",
+              "security-and-compliance/log-search-integration/test-migration-notification"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Content Management",
+        "pages": [
+          "content-management/index",
+          "content-management/role-user-metadata",
+          "content-management/saml-authentication-schema",
+          "content-management/markdown-billing-billing",
+          "content-management/throughput-action-category",
+          {
+            "group": "Throughput Restore Authorization",
+            "pages": [
+              "content-management/throughput-restore-authorization/index",
+              "content-management/throughput-restore-authorization/quota-search-monitor",
+              "content-management/throughput-restore-authorization/email-migration-attribute"
+            ]
+          },
+          "content-management/article-query-project",
+          "content-management/field-configuration-index",
+          "content-management/theme-pipeline-editor",
+          "content-management/user-authentication-automation",
+          {
+            "group": "Permission Authorization Sidebar",
+            "pages": [
+              "content-management/permission-authorization-sidebar/index",
+              "content-management/permission-authorization-sidebar/attribute-theme-project",
+              "content-management/permission-authorization-sidebar/endpoint-database-authentication"
+            ]
+          },
+          "content-management/content-team-content",
+          "content-management/domain-content-limit",
+          "content-management/category-tag-index",
+          "content-management/dashboard-token-saml",
+          {
+            "group": "Search Authentication Version",
+            "pages": [
+              "content-management/search-authentication-version/index",
+              "content-management/search-authentication-version/import-setting-release",
+              "content-management/search-authentication-version/oauth-trigger-sso"
+            ]
+          },
+          "content-management/throughput-metadata-throughput",
+          "content-management/workflow-plan-cache",
+          "content-management/import-navigation-filter",
+          "content-management/environment-project-team",
+          {
+            "group": "Subscription Draft Release",
+            "pages": [
+              "content-management/subscription-draft-release/index",
+              "content-management/subscription-draft-release/email-trigger-dashboard",
+              "content-management/subscription-draft-release/authentication-test-role"
+            ]
+          },
+          "content-management/publish-workflow-attribute",
+          "content-management/content-release-team",
+          "content-management/header-trigger-saml",
+          "content-management/analytics-webhook-log",
+          {
+            "group": "Saml Oauth Deployment",
+            "pages": [
+              "content-management/saml-oauth-deployment/index",
+              "content-management/saml-oauth-deployment/label-pipeline-build",
+              "content-management/saml-oauth-deployment/schema-draft-build"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Analytics and Reporting",
+        "pages": [
+          "analytics-and-reporting/index",
+          "analytics-and-reporting/limit-label-module",
+          "analytics-and-reporting/invoice-editor-search",
+          "analytics-and-reporting/markdown-domain-sort",
+          "analytics-and-reporting/database-latency-theme",
+          {
+            "group": "Platform Database Dashboard",
+            "pages": [
+              "analytics-and-reporting/platform-database-dashboard/index",
+              "analytics-and-reporting/platform-database-dashboard/markdown-import-user",
+              "analytics-and-reporting/platform-database-dashboard/import-migration-response"
+            ]
+          },
+          "analytics-and-reporting/query-index-sso",
+          "analytics-and-reporting/webhook-article-test",
+          "analytics-and-reporting/user-request-billing",
+          "analytics-and-reporting/subscription-request-response",
+          {
+            "group": "Pagination Deployment Setting",
+            "pages": [
+              "analytics-and-reporting/pagination-deployment-setting/index",
+              "analytics-and-reporting/pagination-deployment-setting/workspace-throughput-version",
+              "analytics-and-reporting/pagination-deployment-setting/oauth-test-footer"
+            ]
+          },
+          "analytics-and-reporting/search-sso-user",
+          "analytics-and-reporting/feature-api-version",
+          "analytics-and-reporting/authentication-footer-trigger",
+          "analytics-and-reporting/markdown-request-markdown",
+          {
+            "group": "Template Sort Audit",
+            "pages": [
+              "analytics-and-reporting/template-sort-audit/index",
+              "analytics-and-reporting/template-sort-audit/throughput-quota-import",
+              "analytics-and-reporting/template-sort-audit/setting-authorization-authorization"
+            ]
+          },
+          "analytics-and-reporting/api-throughput-test",
+          "analytics-and-reporting/approval-index-header",
+          "analytics-and-reporting/environment-event-invoice",
+          "analytics-and-reporting/label-article-quota",
+          {
+            "group": "Query Import Approval",
+            "pages": [
+              "analytics-and-reporting/query-import-approval/index",
+              "analytics-and-reporting/query-import-approval/role-workspace-plan",
+              "analytics-and-reporting/query-import-approval/authorization-draft-index"
+            ]
+          },
+          "analytics-and-reporting/export-plan-category",
+          "analytics-and-reporting/approval-editor-filter",
+          "analytics-and-reporting/action-schema-service",
+          "analytics-and-reporting/invoice-pipeline-platform",
+          {
+            "group": "Backup Migration User",
+            "pages": [
+              "analytics-and-reporting/backup-migration-user/index",
+              "analytics-and-reporting/backup-migration-user/search-integration-search",
+              "analytics-and-reporting/backup-migration-user/role-response-plan"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Customization",
+        "pages": [
+          "customization/index",
+          "customization/log-review-webhook",
+          "customization/pagination-deployment-footer",
+          "customization/header-template-index",
+          "customization/setting-user-template",
+          {
+            "group": "Release Search Pipeline",
+            "pages": [
+              "customization/release-search-pipeline/index",
+              "customization/release-search-pipeline/restore-environment-metadata",
+              "customization/release-search-pipeline/restore-theme-trigger"
+            ]
+          },
+          "customization/pagination-performance-role",
+          "customization/tag-review-migration",
+          "customization/tag-category-sidebar",
+          "customization/response-metadata-request",
+          {
+            "group": "Validate Workspace Team",
+            "pages": [
+              "customization/validate-workspace-team/index",
+              "customization/validate-workspace-team/authorization-subscription-workflow",
+              "customization/validate-workspace-team/publish-backup-restore"
+            ]
+          },
+          "customization/field-module-attribute",
+          "customization/action-branding-trigger",
+          "customization/monitor-version-dashboard",
+          "customization/migration-metadata-request",
+          {
+            "group": "Navigation Role Export",
+            "pages": [
+              "customization/navigation-role-export/index",
+              "customization/navigation-role-export/integration-webhook-database",
+              "customization/navigation-role-export/configuration-branding-invoice"
+            ]
+          },
+          "customization/category-alert-notification",
+          "customization/filter-branding-team",
+          "customization/email-plan-endpoint",
+          "customization/notification-api-quota",
+          {
+            "group": "Workflow Project Team",
+            "pages": [
+              "customization/workflow-project-team/index",
+              "customization/workflow-project-team/project-workspace-workspace",
+              "customization/workflow-project-team/endpoint-trigger-migration"
+            ]
+          },
+          "customization/cache-test-category",
+          "customization/schema-label-migration",
+          "customization/report-deployment-report",
+          "customization/environment-theme-monitor",
+          {
+            "group": "Monitor Plan Integration",
+            "pages": [
+              "customization/monitor-plan-integration/index",
+              "customization/monitor-plan-integration/latency-database-footer",
+              "customization/monitor-plan-integration/database-alert-module"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "pages": [
+          "troubleshooting/index",
+          "troubleshooting/oauth-test-publish",
+          "troubleshooting/build-latency-log",
+          "troubleshooting/domain-automation-index",
+          "troubleshooting/action-publish-platform",
+          {
+            "group": "Configuration Dashboard Restore",
+            "pages": [
+              "troubleshooting/configuration-dashboard-restore/index",
+              "troubleshooting/configuration-dashboard-restore/authorization-template-security",
+              "troubleshooting/configuration-dashboard-restore/endpoint-permission-event"
+            ]
+          },
+          "troubleshooting/backup-domain-dashboard",
+          "troubleshooting/export-project-trigger",
+          "troubleshooting/authentication-team-search",
+          "troubleshooting/theme-footer-feature",
+          {
+            "group": "Analytics Alert Invoice",
+            "pages": [
+              "troubleshooting/analytics-alert-invoice/index",
+              "troubleshooting/analytics-alert-invoice/markdown-subscription-restore",
+              "troubleshooting/analytics-alert-invoice/webhook-editor-monitor"
+            ]
+          },
+          "troubleshooting/cache-filter-version",
+          "troubleshooting/user-token-api",
+          "troubleshooting/migration-feature-role",
+          "troubleshooting/throughput-dashboard-audit",
+          {
+            "group": "Feature Template Markdown",
+            "pages": [
+              "troubleshooting/feature-template-markdown/index",
+              "troubleshooting/feature-template-markdown/performance-export-environment",
+              "troubleshooting/feature-template-markdown/environment-saml-cache"
+            ]
+          },
+          "troubleshooting/integration-report-attribute",
+          "troubleshooting/plan-database-sort",
+          "troubleshooting/index-limit-editor",
+          "troubleshooting/platform-article-token",
+          {
+            "group": "Approval Deployment Notification",
+            "pages": [
+              "troubleshooting/approval-deployment-notification/index",
+              "troubleshooting/approval-deployment-notification/version-markdown-pipeline",
+              "troubleshooting/approval-deployment-notification/plan-workspace-export"
+            ]
+          },
+          "troubleshooting/setting-cache-trigger",
+          "troubleshooting/search-workspace-sidebar",
+          "troubleshooting/notification-throughput-validate",
+          "troubleshooting/oauth-backup-subscription",
+          {
+            "group": "Tag Authorization Theme",
+            "pages": [
+              "troubleshooting/tag-authorization-theme/index",
+              "troubleshooting/tag-authorization-theme/dashboard-project-cache",
+              "troubleshooting/tag-authorization-theme/metadata-setting-search"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Release Notes",
+        "pages": [
+          "release-notes/index",
+          "release-notes/authentication-branding-field",
+          "release-notes/subscription-approval-monitor",
+          "release-notes/automation-article-attribute",
+          "release-notes/authorization-review-test",
+          {
+            "group": "Footer Filter Sort",
+            "pages": [
+              "release-notes/footer-filter-sort/index",
+              "release-notes/footer-filter-sort/domain-footer-migration",
+              "release-notes/footer-filter-sort/email-event-label"
+            ]
+          },
+          "release-notes/markdown-saml-environment",
+          "release-notes/export-authentication-security",
+          "release-notes/api-approval-webhook",
+          "release-notes/api-setting-integration",
+          {
+            "group": "Filter Service User",
+            "pages": [
+              "release-notes/filter-service-user/index",
+              "release-notes/filter-service-user/performance-version-permission",
+              "release-notes/filter-service-user/limit-token-workspace"
+            ]
+          },
+          "release-notes/query-article-import",
+          "release-notes/workspace-email-database",
+          "release-notes/throughput-setting-invoice",
+          "release-notes/automation-content-saml",
+          {
+            "group": "Platform Template Deployment",
+            "pages": [
+              "release-notes/platform-template-deployment/index",
+              "release-notes/platform-template-deployment/limit-oauth-template",
+              "release-notes/platform-template-deployment/category-trigger-template"
+            ]
+          },
+          "release-notes/notification-request-automation",
+          "release-notes/feature-schema-notification",
+          "release-notes/schema-tag-article",
+          "release-notes/workflow-user-module",
+          {
+            "group": "Platform Action Quota",
+            "pages": [
+              "release-notes/platform-action-quota/index",
+              "release-notes/platform-action-quota/backup-log-field",
+              "release-notes/platform-action-quota/automation-header-audit"
+            ]
+          },
+          "release-notes/build-sort-footer",
+          "release-notes/performance-analytics-sso",
+          "release-notes/workspace-event-notification",
+          "release-notes/test-authentication-project",
+          {
+            "group": "Theme Audit Project",
+            "pages": [
+              "release-notes/theme-audit-project/index",
+              "release-notes/theme-audit-project/version-tag-import",
+              "release-notes/theme-audit-project/migration-field-release"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "FAQ",
+        "pages": [
+          "faq/index",
+          "faq/token-analytics-notification",
+          "faq/component-webhook-setting",
+          "faq/monitor-webhook-request",
+          "faq/filter-database-export",
+          {
+            "group": "Draft Validate Dashboard",
+            "pages": [
+              "faq/draft-validate-dashboard/index",
+              "faq/draft-validate-dashboard/publish-domain-service",
+              "faq/draft-validate-dashboard/attribute-subscription-monitor"
+            ]
+          },
+          "faq/import-webhook-field",
+          "faq/feature-restore-attribute",
+          "faq/database-sso-endpoint",
+          "faq/email-webhook-platform",
+          {
+            "group": "Response Version Category",
+            "pages": [
+              "faq/response-version-category/index",
+              "faq/response-version-category/schema-editor-pipeline",
+              "faq/response-version-category/content-workspace-audit"
+            ]
+          },
+          "faq/dashboard-platform-header",
+          "faq/label-automation-restore",
+          "faq/event-review-navigation",
+          "faq/service-security-workspace",
+          {
+            "group": "Authentication Migration Audit",
+            "pages": [
+              "faq/authentication-migration-audit/index",
+              "faq/authentication-migration-audit/report-draft-team",
+              "faq/authentication-migration-audit/project-service-project"
+            ]
+          },
+          "faq/metadata-event-analytics",
+          "faq/search-pagination-version",
+          "faq/permission-security-template",
+          "faq/audit-security-configuration",
+          {
+            "group": "Limit Module Sort",
+            "pages": [
+              "faq/limit-module-sort/index",
+              "faq/limit-module-sort/header-integration-event",
+              "faq/limit-module-sort/migration-api-alert"
+            ]
+          },
+          "faq/saml-authentication-workflow",
+          "faq/template-webhook-template",
+          "faq/limit-team-workflow",
+          "faq/domain-api-quota",
+          {
+            "group": "Feature Monitor Email",
+            "pages": [
+              "faq/feature-monitor-email/index",
+              "faq/feature-monitor-email/schema-workspace-authentication",
+              "faq/feature-monitor-email/version-api-endpoint"
+            ]
+          }
+        ]
+      },
+      "new-page-check"
+    ]
+  },
+  "seo": {
+    "metatags": {
+      "seo": "seo tag"
+    }
+  },
+  "variables": {
+    "var1": "good"
+  }
+}

@@ -1,1 +1,1 @@
-# DaC-project
+# mintlify_lg_repo
