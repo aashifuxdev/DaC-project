@@ -1,0 +1,43 @@
+---
+title: "DaC-Test"
+description: "Documentation test space generated in GitBook format."
+---
+
+# Index
+
+changed in desktop. removed
+
+changes after toggle on
+
+Domain report validate migration token schema schema delete publish plan category. Template test export configuration user branding saml disable throughput. Editor export review configuration webhook team notification review validate. Test filter import schema navigation endpoint pagination publish theme setting oauth performance validate footer tag feature saml.
+
+<CardGroup cols={2}>
+  <Card title="Getting Started Overview" href="/getting-started">
+  </Card>
+  <Card title="User Guide Overview" href="/user-guide">
+  </Card>
+  <Card title="Administration Overview" href="/administration">
+  </Card>
+  <Card title="Integrations Overview" href="/integrations">
+  </Card>
+  <Card title="API Reference Overview" href="/api-reference">
+  </Card>
+  <Card title="Security and Compliance Overview" href="/security-and-compliance">
+  </Card>
+  <Card title="Content Management Overview" href="/content-management">
+  </Card>
+  <Card title="Analytics and Reporting Overview" href="/analytics-and-reporting">
+  </Card>
+  <Card title="Customization Overview" href="/customization">
+  </Card>
+  <Card title="Troubleshooting Overview" href="/troubleshooting">
+  </Card>
+  <Card title="Release Notes Overview" href="/release-notes">
+  </Card>
+  <Card title="FAQ Overview" href="/faq">
+  </Card>
+</CardGroup>
+
+<Frame caption="Product walkthrough">
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Product walkthrough" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</Frame>
